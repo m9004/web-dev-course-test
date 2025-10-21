@@ -1,0 +1,39 @@
+body {background-color: cornflowerblue; display: grid;}
+
+header {
+    background-color: cadetblue;
+}
+
+#links {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+article {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+aside {
+    display: grid;
+}
+
+h1 {color:darkblue; font-family: Verdana, Tahoma, sans-serif;}
+
+p {color:darkblue; font-family: Verdana, Tahoma, sans-serif;}
+
+li {color:darkblue; font-family: Verdana, Tahoma, sans-serif;}
+
+button {
+    width: 200px;
+}
+
+@keyframes rotateBall {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+
+#rotate {
+    animation-name: rotateBall;
+    animation-duration: 4s;
+}
